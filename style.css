@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('./DS-DIGIT.TTF') format('truetype');
+    font-weight: bold;
+  }
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock{
+    margin: 200px auto;
+    padding: 20px;
+    width: 60%;
+    height: 200px;
+    border: 1px solid #678;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background:linear-gradient(#345,#357);
+    border-radius: 15px;
+    font-family: "DS-Digital";
+
+}
+
+.clock > div{
+
+    padding: 10px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+
+.circulo{
+    margin: 5px;
+    width: 100%;
+    max-width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    padding: 2px;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.circulo img{
+    width: 100%;
+    height: 100%;
+}
+
+.active{
+    border: 10px dashed #357;
+}
+
+.areaDeEnfoque{
+    padding: 10px;
+    height: auto;
+    min-height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #678;
+}
+
+.areaDeTrabajo{
+    width: 100%;
+    height: 560px;
+    background-color: #456;
+    margin: 200px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
